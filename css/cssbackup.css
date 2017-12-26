@@ -1,0 +1,82 @@
+.window1{
+	position: absolute;
+	border:1px solid #5C6667;
+	margin:auto;
+	width:630px;
+	height:660px;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:#202526
+
+}
+.window2{
+	position: absolute;
+	
+	margin:auto;
+	width:590px;
+	height:645px;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:#202526
+}
+
+.window3{
+	position: absolute;
+	
+	margin:auto;
+	width:560px;
+	height:315px;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:#202526
+
+}
+.pingtext{
+	text-align: center;
+	color:#DDDDDD;
+	font-size:18px
+
+}
+.pingtext1{
+
+	color:#DDDDDD;
+	font-size:14px
+}
+body{
+	background:#070708 !important;
+
+}
+
+.row{
+  width: 559px;
+}
+
+.row div{
+  
+  float:left;
+  width: 180px;
+  height: 55px;
+  border: 2px solid black;
+  margin: auto;
+  color: white;
+}
+
+.button1 {
+    background-color: #566770 !important;
+    border:1px solid #DDDDDD;
+    border-radius: 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+}
+.mid{
+	text-align: center;
+}
