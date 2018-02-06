@@ -25,6 +25,7 @@
 		</script>
 </head>
 <body>
+	<script src="../src/ping.js" type="text/javascript"></script>
 	<div class="window1">
 		<div class="window2">
 			<p class="pingtext">SELECT MATCHMAKING REGIONS<pre><form><input type="checkbox" name="Ping All" checked><span class="pingtext1"> Automatically pick best region based on my location.</span></form></pre></p>
@@ -76,11 +77,24 @@
 								    <div><img id="useast" src="dark.png" style="width: 18px;height: 18px">US East<div><img id="useast" src="signal1.png" style="width: 17px;height: 12px"></div></div>
 								    <div><img id="southam" src="dark.png" style="width: 18px;height: 18px">South America<div><img id="southam" src="signal1.png" style="width: 17px;height: 12px"></div></div>
 								</div>
-								<div class="mid">qweqwe</div>
+								<span id="google"></span>
+								<script>
+									var p = new Ping();
+									p.ping("http://google.com", function(err, data) {
+									        // Also display error if err is returned.
+									        if (err) {
+									          console.log("error loading resource")
+									          data = data + " " + err;
+									        }
+									        document.getElementById("google") = data;
+									        });
+
+								</script>
 								<div class="mid">
 									<form action="ping.php">
    									 <input class="button1" type="submit" value="Ping Servers" />
 									</form>
+
 								</div>
 
 
