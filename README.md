@@ -1,4 +1,5 @@
 # d2ping
+django implementation here : https://github.com/mahesh-wor/d2ping-django
 Web verision of Dota2ping.
 
 The Idea  here is to make something like this, which shows ping results in various servers like India,SEA, Europe.
